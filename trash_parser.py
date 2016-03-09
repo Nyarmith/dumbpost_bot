@@ -8,7 +8,7 @@ verbs=verbs.split('/')
 verbs.pop()
 verbs.pop()
 
-total_verbs = len(verbs)/3
+total_verbs = len(verbs)
 
 #NOUNS
 with open ("nouns.txt","r") as myfile:
